@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/flower_shop?useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: mysql
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+jwt:
+  secret: flower-shop-secret-key-2024
+  expire: 604800
+
+server:
+  port: 8080
+
+plantnet:
+  api:
+    key: 2b10BFU0Vbb2CtRWRSM2pG0fu
